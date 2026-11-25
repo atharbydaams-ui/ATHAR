@@ -1,0 +1,102 @@
+<!doctype html><html lang="ar" dir="rtl"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1">
+<title>أَثَر | ATHAR</title>
+<link href="https://fonts.googleapis.com/css2?family=Amiri:wght@400;700&family=IBM+Plex+Sans+Arabic:wght@400;500&display=swap" rel="stylesheet">
+<style>
+:root{--paper:#f1e8d4;--card:#f7f0e0;--ink:#2b1d14;--soft:#6a5a4a;--olive:#6b6b3a;--terra:#b5593c;--line:#cdbf9f;--r:2px}
+@media(prefers-color-scheme:dark){:root{--paper:#f1e8d4}}
+*{box-sizing:border-box}html{scroll-behavior:smooth}
+body{margin:0;background:var(--paper) url("data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' width='120' height='120'%3E%3Cfilter id='n'%3E%3CfeTurbulence baseFrequency='.8' numOctaves='2'/%3E%3CfeColorMatrix values='0 0 0 0 .4 0 0 0 0 .3 0 0 0 0 .2 0 0 0 .07 0'/%3E%3C/filter%3E%3Crect width='120' height='120' filter='url(%23n)'/%3E%3C/svg%3E");color:var(--ink);font:400 16px/1.8 'IBM Plex Sans Arabic',sans-serif}
+h1,h2,h3,.logo{font-family:Amiri,serif;font-weight:700;margin:0;line-height:1.3}
+a{color:inherit;text-decoration:none}button,input,select,textarea{font:inherit;color:inherit}
+header{position:sticky;top:0;z-index:5;background:var(--paper);border-bottom:1px solid var(--line);display:flex;align-items:center;gap:14px;padding:8px 18px}
+.logo{font-size:28px;margin-inline-end:auto}.logo small{font:500 11px sans-serif;letter-spacing:.3em;display:block;color:var(--soft);line-height:1}
+nav{display:flex;gap:18px}nav a{font-size:15px;padding:4px 0;border-bottom:1px solid transparent}nav a:hover{border-color:var(--ink)}
+.ib{background:none;border:0;cursor:pointer;padding:8px;font-size:15px}#cnt{background:var(--ink);color:var(--paper);border-radius:9px;padding:0 7px;font-size:12px;margin-inline-start:4px}
+#sr{display:none;width:130px;border:0;border-bottom:1px solid var(--ink);background:none;padding:4px}
+main{max-width:1100px;margin:0 auto;padding:24px 18px 60px;min-height:70vh}
+.hero{display:grid;grid-template-columns:1.2fr 1fr;gap:30px;align-items:center;padding:30px 0 50px}
+.hero h1{font-size:clamp(40px,8vw,84px)}.hero p{color:var(--soft);max-width:36ch}
+.btn{display:inline-block;background:var(--ink);color:var(--paper);padding:10px 28px;border:0;border-radius:var(--r);cursor:pointer;margin-top:10px}.btn:disabled{opacity:.4;cursor:not-allowed}.btn.o{background:none;color:var(--ink);border:1px solid var(--ink)}
+h2.s{font-size:28px;margin:46px 0 16px;display:flex;align-items:center;gap:14px}h2.s:after{content:"";flex:1;border-top:1px solid var(--line)}
+.g{display:grid;grid-template-columns:repeat(auto-fill,minmax(210px,1fr));gap:22px 16px}
+.c{display:block}.c .im{aspect-ratio:3/4;background:var(--card);border:1px solid var(--line);position:relative;overflow:hidden}
+.im img{position:absolute;inset:0;width:100%;height:100%;object-fit:cover;transition:opacity .4s}.im img+img{opacity:0}.c:hover .im img+img{opacity:1}
+.c h3{font:500 15px 'IBM Plex Sans Arabic';margin-top:8px}.c .pr{color:var(--soft);font-size:14px}.tag{position:absolute;top:8px;inset-inline-start:8px;z-index:2;background:var(--paper);border:1px solid var(--terra);color:var(--terra);font-size:12px;padding:0 8px;transform:rotate(-2deg)}
+.pd{display:grid;grid-template-columns:1fr 1fr;gap:30px}.pd .big{aspect-ratio:3/4;background:var(--card);border:1px solid var(--line)}.big img{width:100%;height:100%;object-fit:cover}
+.th{display:flex;gap:8px;margin-top:8px}.th img{width:56px;height:72px;object-fit:cover;border:1px solid var(--line);cursor:pointer}
+.sz{display:flex;flex-wrap:wrap;gap:8px;margin:10px 0}.sz button{min-width:54px;padding:6px 10px;background:none;border:1px solid var(--ink);cursor:pointer}.sz button.on{background:var(--ink);color:var(--paper)}.sz button:disabled{border-color:var(--line);color:var(--line);text-decoration:line-through;cursor:not-allowed}
+.chips{display:flex;gap:8px;flex-wrap:wrap;margin-bottom:18px}.chips button{background:none;border:1px solid var(--line);padding:2px 14px;cursor:pointer}.chips .on{background:var(--ink);color:var(--paper)}
+.row{display:flex;gap:14px;align-items:center;padding:12px 0;border-bottom:1px solid var(--line)}.row img{width:64px;height:84px;object-fit:cover}.row .i{flex:1}
+.f{display:grid;gap:12px;max-width:520px}.f input,.f select,.f textarea{padding:10px;background:var(--card);border:1px solid var(--line);border-radius:var(--r);width:100%}
+.m{color:var(--soft);text-align:center;padding:40px 0}.er{color:var(--terra)}.stamp{border:2px solid var(--terra);color:var(--terra);display:inline-block;padding:2px 16px;transform:rotate(-4deg);font-family:Amiri;font-size:22px}
+.q{display:inline-flex;align-items:center;border:1px solid var(--line)}.q button{border:0;background:none;width:30px;height:30px;cursor:pointer}
+footer{border-top:1px solid var(--line);padding:30px 18px;text-align:center;color:var(--soft);font-size:14px}
+@media(max-width:720px){.hero,.pd{grid-template-columns:1fr}nav{position:fixed;bottom:0;inset-inline:0;background:var(--paper);border-top:1px solid var(--line);justify-content:space-around;padding:8px;z-index:6}header{flex-wrap:wrap}body{padding-bottom:50px}.g{grid-template-columns:repeat(2,1fr)}}
+@media(prefers-reduced-motion:reduce){*{transition:none!important}}
+</style></head><body>
+<header><a class="logo" href="#/">أَثَر<small>ATHAR</small></a>
+<nav><a href="#/shop">القطع</a><a href="#/collections">المجموعات</a><a href="#/rare">نادرة</a><a href="#/archive">الأرشيف</a><a href="#/about">عن أثر</a></nav>
+<input id="sr" placeholder="ابحث…" aria-label="بحث"><button class="ib" onclick="srch()" aria-label="بحث">بحث</button>
+<a class="ib" href="#/bag">حقيبتك<span id="cnt">0</span></a></header>
+<main id="app"></main>
+<footer><b class="logo">أَثَر ATHAR</b><p>الدفع عند الاستلام · التوصيل لجميع محافظات العراق<br>Instagram: @athar (عدّلها) · هاتف: 07XX XXX XXXX (عدّله)</p></footer>
+<script src="https://cdn.jsdelivr.net/npm/@supabase/supabase-js@2.45.4/dist/umd/supabase.js"></script>
+<script src="config.js"></script>
+<script>
+const sb=supabase.createClient(CFG.url,CFG.anon),$=s=>document.querySelector(s),app=$('#app'),FEE=5000;
+const e=s=>String(s??'').replace(/[&<>"']/g,c=>({'&':'&amp;','<':'&lt;','>':'&gt;','"':'&quot;',"'":'&#39;'}[c]));
+const iqd=n=>new Intl.NumberFormat('ar-IQ').format(n)+' IQD';
+const GOV=['بغداد','البصرة','نينوى','أربيل','السليمانية','دهوك','كركوك','الأنبار','بابل','كربلاء','النجف','القادسية','ذي قار','ميسان','واسط','المثنى','ديالى','صلاح الدين'];
+let P=[],C=[],CAT=[],bag=JSON.parse(localStorage.getItem('athar_bag')||'[]'),sel=null,cat=0,ok=false;
+const save=()=>{localStorage.setItem('athar_bag',JSON.stringify(bag));$('#cnt').textContent=bag.reduce((a,b)=>a+b.qty,0)};
+const stock=p=>p.product_sizes.reduce((a,s)=>a+s.qty,0),qtyOf=(p,z)=>(p.product_sizes.find(s=>s.size==z)||{qty:0}).qty;
+const badge=p=>stock(p)==0?'نفذت':p.label=='single'?'نسخة واحدة':p.label=='limited'?'كمية محدودة':'';
+const img=(p,i=0)=>p.images[i]?`<img src="${e(p.images[i])}" alt="${e(p.name)}" loading="lazy">`:'';
+const card=p=>{const b=badge(p);return`<a class="c" href="#/p/${p.id}"><div class="im">${b?`<span class="tag">${b}</span>`:''}${img(p)}${img(p,1)}</div><h3>${e(p.name)}</h3><div class="pr">${iqd(p.price)} · ${p.product_sizes.filter(s=>s.qty>0).map(s=>e(s.size)).join(' ')||'نفذت'}</div></a>`};
+const grid=l=>l.length?`<div class="g">${l.map(card).join('')}</div>`:'<p class="m">لا توجد قطع هنا بعد.</p>';
+async function load(force){if(ok&&!force)return;const[a,b,c]=await Promise.all([
+ sb.from('products').select('*,product_sizes(size,qty)').eq('published',true).order('sort').order('created_at',{ascending:false}),
+ sb.from('collections').select('*').order('number'),sb.from('categories').select('*').order('sort')]);
+ if(a.error||b.error||c.error)throw a.error||b.error||c.error;P=a.data;C=b.data;CAT=c.data;ok=true}
+const V={
+home(){const nw=P.slice().sort((a,b)=>b.created_at.localeCompare(a.created_at)).slice(0,4),rare=P.filter(p=>p.label!='regular'&&stock(p)>0).slice(0,4),col=C.filter(c=>!c.archived).pop();
+ app.innerHTML=`<section class="hero"><div><h1>قطعٌ لا تشبه غيرها.</h1><p>أثر متجر مستقل لقطع الستريت وير النادرة والمختارة بعناية.</p><a class="btn" href="#/shop">تسوّق القطع</a></div><div style="text-align:center"><svg viewBox="0 0 200 200" width="240" aria-hidden="true"><circle cx="100" cy="100" r="86" fill="none" stroke="#b5593c" stroke-width="2"/><circle cx="100" cy="100" r="78" fill="none" stroke="#b5593c" stroke-dasharray="2 5"/><text x="100" y="112" text-anchor="middle" font-family="Amiri" font-size="56" fill="#b5593c">أَثَر</text><text x="100" y="140" text-anchor="middle" font-size="12" letter-spacing="6" fill="#b5593c">ATHAR</text></svg></div></section>
+ <h2 class="s">وصل حديثاً</h2>${grid(nw)}${col?`<h2 class="s">المجموعة ${col.number||''}</h2><a class="c" href="#/col/${col.id}"><h3 style="font:700 24px Amiri">${e(col.name)}</h3><p>${e(col.description)}</p></a>`:''}
+ ${rare.length?`<h2 class="s">قطع نادرة</h2>${grid(rare)}`:''}<h2 class="s">فلسفة أثر</h2><p style="font:24px/1.9 Amiri;text-align:center;max-width:30ch;margin:auto">ملابس لا تشبه كل شيء آخر. كل قطعة تُختار وتُحفظ في أرشيف.</p>`},
+shop(q){q=q||'';const l=P.filter(p=>(!cat||p.category_id==cat)&&(!q||(p.name+p.description).includes(q)));
+ app.innerHTML=`<h1>القطع ${q?'· '+e(q):''}</h1><div class="chips"><button class="${cat?'':'on'}" onclick="cat=0;route()">الكل</button>${CAT.map(c=>`<button class="${cat==c.id?'on':''}" onclick="cat=${c.id};route()">${e(c.name)}</button>`).join('')}</div>${grid(l)}`},
+collections(){const l=C.filter(c=>!c.archived);app.innerHTML=`<h1>المجموعات</h1>${l.length?l.map(c=>`<a class="row" href="#/col/${c.id}">${c.cover_url?`<img src="${e(c.cover_url)}" alt="">`:''}<div class="i"><h3>المجموعة ${c.number||''} · ${e(c.name)}</h3><span class="pr">${e(c.description)}</span></div></a>`).join(''):'<p class="m">لا توجد مجموعات بعد.</p>'}`},
+col(id){const c=C.find(x=>x.id==id);if(!c)return V.home();app.innerHTML=`<h1>المجموعة ${c.number||''} · ${e(c.name)}</h1><p>${e(c.description)}</p>${grid(P.filter(p=>p.collection_id==c.id))}`},
+rare(){app.innerHTML=`<h1>قطع نادرة</h1>${grid(P.filter(p=>p.label!='regular'&&stock(p)>0))}`},
+archive(){app.innerHTML=`<h1>الأرشيف</h1><p class="pr">قطع نفذت ومجموعات مؤرشفة.</p>${grid(P.filter(p=>stock(p)==0))}${C.filter(c=>c.archived).map(c=>`<a class="row" href="#/col/${c.id}"><div class="i"><h3>${e(c.name)}</h3></div></a>`).join('')}`},
+about(){app.innerHTML=`<h1>عن أثر</h1><p style="max-width:60ch">أثر متجر مستقل متخصص بالستريت وير النادر والمميز. نختار القطع بعناية، وبعضها نسخة واحدة فقط. (عدّل هذا النص)</p>`},
+p(id){const p=P.find(x=>x.id==id);if(!p)return V.home();sel=null;const b=badge(p);
+ app.innerHTML=`<div class="pd"><div><div class="big" id="bg">${img(p)}</div><div class="th">${p.images.map(u=>`<img src="${e(u)}" alt="" onclick="$('#bg').innerHTML=this.outerHTML">`).join('')}</div></div><div><h1>${e(p.name)}</h1><p class="pr">${iqd(p.price)} ${b?`· <span class="er">${b}</span>`:''}</p><p>${e(p.description)}</p>${p.collection_id?`<p class="pr">${e((C.find(c=>c.id==p.collection_id)||{}).name||'')}</p>`:''}
+ <div class="sz">${p.product_sizes.map(s=>`<button ${s.qty<1?'disabled':''} onclick="pick(this,'${e(s.size)}')">${e(s.size)}${s.qty<1?' · نفذت':s.qty<4?` · ${s.qty}`:''}</button>`).join('')}</div>
+ <button class="btn" id="add" ${stock(p)?'':'disabled'} onclick="add('${p.id}')">${stock(p)?'أضف إلى الحقيبة':'نفذت'}</button><p id="msg" class="er"></p></div></div><h2 class="s">قد يعجبك</h2>${grid(P.filter(x=>x.id!=p.id&&x.category_id==p.category_id).slice(0,4))}`},
+bag(){if(!bag.length){app.innerHTML='<h1>حقيبتك</h1><p class="m">حقيبتك فارغة.</p><p style="text-align:center"><a class="btn" href="#/shop">تصفّح القطع</a></p>';return}
+ let sub=0,bad=0;const rows=bag.map(i=>{const p=P.find(x=>x.id==i.id),a=p?qtyOf(p,i.size):0,u=a<i.qty;bad+=u;if(p&&!u)sub+=p.price*i.qty;
+ return`<div class="row">${p?img(p):''}<div class="i"><b>${e(p?p.name:'قطعة غير متوفرة')}</b><br>المقاس ${e(i.size)} · ${p?iqd(p.price):''}${u?`<br><span class="er">${a?'الكمية المتاحة '+a+' فقط':'نفذت'} — عدّل أو احذف</span>`:''}</div><span class="q"><button onclick="chg('${i.id}','${e(i.size)}',-1)">−</button>${i.qty}<button onclick="chg('${i.id}','${e(i.size)}',1)">+</button></span><button class="ib" onclick="chg('${i.id}','${e(i.size)}',-99)">حذف</button></div>`}).join('');
+ app.innerHTML=`<h1>حقيبتك</h1>${rows}<p>المجموع: ${iqd(sub)}<br>التوصيل: ${iqd(FEE)}<br><b>الإجمالي: ${iqd(sub+FEE)}</b></p><button class="btn" ${bad?'disabled':''} onclick="location.hash='#/checkout'">إتمام الطلب</button>`},
+checkout(){if(!bag.length)return location.hash='#/bag';let sub=bag.reduce((a,i)=>{const p=P.find(x=>x.id==i.id);return a+(p?p.price*i.qty:0)},0);
+ app.innerHTML=`<h1>إتمام الطلب</h1><p class="stamp">الدفع عند الاستلام</p><form class="f" onsubmit="send(event)"><input name="name" placeholder="الاسم الكامل" required minlength="2"><input name="phone" type="tel" inputmode="tel" placeholder="رقم الهاتف" required pattern="[0-9٠-٩+ ]{7,16}"><select name="governorate" required><option value="">المحافظة</option>${GOV.map(g=>`<option>${g}</option>`).join('')}</select><input name="district" placeholder="المنطقة / القضاء" required><textarea name="address" placeholder="العنوان بالتفصيل" required></textarea><textarea name="notes" placeholder="ملاحظات (اختياري)"></textarea><p>المجموع ${iqd(sub)} + توصيل ${iqd(FEE)}<br><b>الإجمالي ${iqd(sub+FEE)}</b></p><p id="msg" class="er"></p><button class="btn" id="go">تأكيد الطلب</button></form>`},
+done(){const d=JSON.parse(sessionStorage.getItem('athar_last')||'null');if(!d)return V.home();
+ app.innerHTML=`<h1>وصل طلبك بنجاح!</h1><p class="stamp">طلب رقم ${d.number}</p><p>سنتواصل معك على ${e(d.phone)} لتأكيد التوصيل إلى ${e(d.governorate)} — ${e(d.address)}.<br>طريقة الدفع: الدفع عند الاستلام</p>${d.items.map(i=>`<div class="row"><div class="i">${e(i.name)} · ${e(i.size)} × ${i.qty}</div></div>`).join('')}<p><b>الإجمالي: ${iqd(d.total)}</b></p><a class="btn o" href="#/shop">متابعة التسوّق</a>`}};
+function pick(b,z){sel=z;document.querySelectorAll('.sz button').forEach(x=>x.classList.remove('on'));b.classList.add('on')}
+function add(id){const p=P.find(x=>x.id==id),m=$('#msg');if(!sel){m.textContent='اختر المقاس أولاً';return}
+ const i=bag.find(x=>x.id==id&&x.size==sel);if((i?i.qty:0)+1>qtyOf(p,sel)){m.textContent='لا تتوفر كمية أكثر من هذا المقاس';return}
+ i?i.qty++:bag.push({id,size:sel,qty:1});save();m.textContent='';$('#add').textContent='أُضيفت ✓ — عرض الحقيبة';$('#add').onclick=()=>location.hash='#/bag'}
+function chg(id,z,d){const i=bag.find(x=>x.id==id&&x.size==z),p=P.find(x=>x.id==id);if(!i)return;
+ if(d>0&&p&&i.qty+d>qtyOf(p,z))return;i.qty+=d;if(i.qty<1)bag=bag.filter(x=>x!==i);save();V.bag()}
+async function send(ev){ev.preventDefault();const f=Object.fromEntries(new FormData(ev.target)),m=$('#msg'),b=$('#go');b.disabled=true;m.textContent='';
+ let key=sessionStorage.getItem('athar_key');if(!key){key=crypto.randomUUID();sessionStorage.setItem('athar_key',key)}
+ const {data,error}=await sb.rpc('place_order',{p:{...f,key,items:bag}});
+ if(error){m.textContent=error.message.includes('duplicate')?'جارٍ معالجة طلبك…':error.message;b.disabled=false;await load(true);return}
+ sessionStorage.setItem('athar_last',JSON.stringify({...f,number:data.number,total:data.total,items:bag.map(i=>({name:(P.find(x=>x.id==i.id)||{}).name,size:i.size,qty:i.qty}))}));
+ sessionStorage.removeItem('athar_key');bag=[];save();ok=false;location.hash='#/done'}
+function srch(){const s=$('#sr');if(s.style.display=='inline-block'&&s.value)location.hash='#/shop/'+encodeURIComponent(s.value);else{s.style.display='inline-block';s.focus()}}
+$('#sr').onkeydown=ev=>{if(ev.key=='Enter')srch()};
+async function route(){const[r,a]=(location.hash.slice(2)||'home').split('/');app.innerHTML='<p class="m">جارٍ التحميل…</p>';
+ try{await load();(V[r]||V.home)(decodeURIComponent(a||''))}catch(x){console.error(x);app.innerHTML='<p class="m">تعذّر التحميل. تحقق من الاتصال أو من إعداد config.js.</p>'}scrollTo(0,0)}
+addEventListener('hashchange',route);save();route();
+</script></body></html>
